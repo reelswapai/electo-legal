@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#070812">
+<meta name="description" content="Política de privacidad de Electo, la aplicación para comparar posiciones políticas con fuentes documentadas.">
+<title>Política de privacidad · Electo</title>
+<style>
+  :root {
+    --bg: #070812;
+    --panel: #0f1122;
+    --line: #25284a;
+    --text: #e9e9f6;
+    --muted: #a8accb;
+    --blue: #5b8cff;
+    --violet: #8b6bff;
+    --warn: #e6c27a;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    background-image:
+      radial-gradient(60rem 30rem at 85% -10%, rgba(91, 140, 255, 0.18), transparent 60%),
+      radial-gradient(50rem 28rem at -10% 110%, rgba(139, 107, 255, 0.16), transparent 60%);
+    background-attachment: fixed;
+    color: var(--text);
+    font: 1rem/1.7 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  .skip {
+    position: absolute; left: -999px; top: 0;
+    background: var(--violet); color: #fff; padding: .6rem 1rem; z-index: 10;
+  }
+  .skip:focus { left: 0; }
+  header, main, footer { width: min(100% - 2rem, 46rem); margin-inline: auto; }
+  header { padding: 2.5rem 0 1rem; }
+  .brand {
+    margin: 0 0 1.2rem;
+    font-size: .95rem; font-weight: 800; letter-spacing: .28em; text-transform: uppercase;
+    background: linear-gradient(90deg, var(--blue), var(--violet));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  h1 { margin: 0; font-size: clamp(2rem, 7vw, 2.8rem); line-height: 1.12; letter-spacing: -.02em; }
+  .updated { margin: .8rem 0 0; color: var(--muted); font-size: .95rem; }
+  main { padding-bottom: 2rem; }
+  section { margin-top: 2.2rem; }
+  h2 {
+    margin: 0 0 .6rem; font-size: 1.3rem; line-height: 1.3;
+    padding-bottom: .4rem; border-bottom: 1px solid var(--line);
+  }
+  p, li { color: var(--text); }
+  p { margin: .7rem 0; }
+  ul { margin: .6rem 0; padding-left: 1.3rem; }
+  li { margin: .35rem 0; }
+  a { color: var(--blue); text-underline-offset: .2em; }
+  a:hover { color: #8fb0ff; }
+  a:focus-visible, .skip:focus-visible { outline: 3px solid var(--warn); outline-offset: 3px; border-radius: 3px; }
+  .card {
+    background: var(--panel); border: 1px solid var(--line);
+    border-radius: 1rem; padding: 1rem 1.2rem; margin-top: 1rem;
+  }
+  .card p:first-child { margin-top: 0; } .card p:last-child { margin-bottom: 0; }
+  nav { margin-top: 2.2rem; }
+  nav ol { margin: .6rem 0 0; padding-left: 1.3rem; columns: 1; }
+  .pending {
+    background: rgba(230, 194, 122, .14); color: var(--warn);
+    border: 1px dashed rgba(230, 194, 122, .6); border-radius: .35rem; padding: 0 .35rem;
+  }
+  footer { padding: 1rem 0 3rem; color: var(--muted); font-size: .9rem; border-top: 1px solid var(--line); }
+  @media (min-width: 40rem) { nav ol { columns: 2; column-gap: 2rem; } }
+</style>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<header>
+  <p class="brand">Electo</p>
+  <h1>Política de privacidad</h1>
+  <p class="updated">Última actualización: <time datetime="2026-10-22">22 de octubre de 2026</time> · Aplicación Electo para iOS, versión 1.0.0</p>
+</header>
+
+<main id="contenido">
+  <div class="card" role="note">
+    <p><strong>En pocas palabras.</strong> Electo no tiene cuentas, no te pide datos personales y no envía tus respuestas a ningún servidor. Las respuestas del test se usan en tu dispositivo para calcular el resultado y no se guardan al cerrar la aplicación.</p>
+  </div>
+
+  <nav aria-label="Índice">
+    <h2>Índice</h2>
+    <ol>
+      <li><a href="#responsable">Responsable</a></li>
+      <li><a href="#datos">Qué datos se tratan y para qué</a></li>
+      <li><a href="#no-recopilamos">Qué no recopilamos</a></li>
+      <li><a href="#almacenamiento">Almacenamiento, conservación y eliminación</a></li>
+      <li><a href="#enlaces">Enlaces externos y terceros</a></li>
+      <li><a href="#apple">Apple y la distribución de la app</a></li>
+      <li><a href="#derechos">Tus derechos</a></li>
+      <li><a href="#cambios">Cambios en esta política</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ol>
+  </nav>
+
+  <section id="responsable" aria-labelledby="h-responsable">
+    <h2 id="h-responsable">1. Responsable</h2>
+    <p>El responsable de Electo es Javier García Martínez.</p>
+    <p>Correo de contacto: <a href="mailto:electo.privacidad@gmail.com">electo.privacidad@gmail.com</a>.</p>
+  </section>
+
+  <section id="datos" aria-labelledby="h-datos">
+    <h2 id="h-datos">2. Qué datos se tratan y para qué</h2>
+    <p>Electo no solicita ni almacena datos que te identifiquen (nombre, correo, teléfono, cuenta, contactos, ubicación, fotos). La aplicación solo trata, en tu dispositivo, la información que tú introduces mientras la usas:</p>
+    <ul>
+      <li><strong>Respuestas al test de afinidad</strong> (las 35 cuestiones y las que marques como importantes): se usan únicamente para calcular tu resultado y mostrarlo en pantalla.</li>
+      <li><strong>Provincia o circunscripción</strong> que eliges: se usa para mostrar las candidaturas y los datos electorales de esa circunscripción. Electo no utiliza tu ubicación ni te la pide.</li>
+      <li><strong>Tus respuestas en Discover</strong> (me convence / no me convence) y <strong>las opciones que eliges en el simulador y en el voto útil</strong>: se usan para mostrar contenido en pantalla durante la sesión.</li>
+    </ul>
+    <p>Estos datos se tratan localmente. Electo no los envía a sus responsables ni a terceros.</p>
+  </section>
+
+  <section id="no-recopilamos" aria-labelledby="h-no">
+    <h2 id="h-no">3. Qué no recopilamos</h2>
+    <p>Según el funcionamiento actual de la aplicación, Electo:</p>
+    <ul>
+      <li>no tiene registro, inicio de sesión ni identificación de usuarios;</li>
+      <li>no incorpora herramientas de analítica, publicidad ni seguimiento, ni informes de errores de terceros;</li>
+      <li>no realiza peticiones de red propias para enviar datos tuyos;</li>
+      <li>no solicita permisos como ubicación, cámara, micrófono, contactos o fotos;</li>
+      <li>no genera ni usa identificadores publicitarios ni identificadores propios de dispositivo o instalación.</li>
+    </ul>
+    <p>Las posiciones de los partidos, sus fuentes y los resultados electorales históricos forman parte de la propia aplicación; no se descargan de ningún servidor de Electo.</p>
+  </section>
+
+  <section id="almacenamiento" aria-labelledby="h-alm">
+    <h2 id="h-alm">4. Almacenamiento, conservación y eliminación</h2>
+    <ul>
+      <li><strong>Respuestas y resultados.</strong> Se mantienen solo en la memoria de la aplicación mientras la tienes abierta. Electo no las escribe en el almacenamiento del dispositivo, por lo que desaparecen al cerrar la aplicación.</li>
+      <li><strong>Imagen del simulador.</strong> Si pulsas compartir en el simulador, Electo genera una imagen de tu simulación y abre la hoja de compartir del sistema. La imagen se crea en un espacio temporal del dispositivo, que gestiona el sistema operativo, y solo sale del dispositivo si tú eliges un destino. Electo no la envía a ningún servidor.</li>
+      <li><strong>Eliminación.</strong> Para borrar lo que haya en memoria basta con cerrar la aplicación. Si la desinstalas, se elimina cualquier dato temporal asociado a ella.</li>
+    </ul>
+    <p>Como Electo no conserva tus respuestas en servidores propios, no existe una copia que podamos consultar, recuperar o transferir.</p>
+  </section>
+
+  <section id="enlaces" aria-labelledby="h-enlaces">
+    <h2 id="h-enlaces">5. Enlaces externos y terceros</h2>
+    <p>Electo muestra enlaces a las fuentes de las posiciones y de los datos electorales (por ejemplo, documentos y páginas de partidos, boletines oficiales y organismos públicos). Al pulsarlos, la aplicación abre el enlace en tu navegador o en otra aplicación del sistema. Electo no añade a esos enlaces datos tuyos ni tus respuestas.</p>
+    <p>A partir de ese momento, el sitio web de destino puede tratar información técnica (como tu dirección IP o cookies) conforme a su propia política de privacidad, sobre la que Electo no tiene control. Si compartes una imagen desde el simulador, la aplicación o el servicio que elijas para recibirla tratará esa imagen conforme a sus propias condiciones.</p>
+  </section>
+
+  <section id="apple" aria-labelledby="h-apple">
+    <h2 id="h-apple">6. Apple y la distribución de la app</h2>
+    <p>Electo se distribuye a través de los servicios de Apple (App Store y TestFlight). Apple trata tus datos como parte de esos servicios según su propia política de privacidad. Apple puede facilitar a los desarrolladores información agregada, como estadísticas de descargas o informes de fallos de usuarios que hayan activado compartir datos de análisis con desarrolladores en su dispositivo. Electo no incorpora herramientas propias para obtener esa información.</p>
+  </section>
+
+  <section id="derechos" aria-labelledby="h-derechos">
+    <h2 id="h-derechos">7. Tus derechos</h2>
+    <p>Conforme al Reglamento (UE) 2016/679 (RGPD) y a la normativa española de protección de datos, puedes ejercer los derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad, escribiendo al correo de contacto indicado en el apartado 9. Dado que Electo no conserva datos personales tuyos, es posible que la respuesta sea que no disponemos de ellos.</p>
+    <p>También puedes presentar una reclamación ante la autoridad de control. En España, la Agencia Española de Protección de Datos (<a href="https://www.aepd.es" rel="noopener noreferrer">www.aepd.es</a>).</p>
+  </section>
+
+  <section id="cambios" aria-labelledby="h-cambios">
+    <h2 id="h-cambios">8. Cambios en esta política</h2>
+    <p>Esta política describe el funcionamiento actual de Electo. Si en el futuro se añade una función que trate datos de otra forma (por ejemplo, cuentas, almacenamiento de resultados o herramientas de analítica), actualizaremos esta página antes de publicar esa versión y cambiaremos la fecha de última actualización. Te recomendamos revisarla periódicamente.</p>
+  </section>
+
+  <section id="contacto" aria-labelledby="h-contacto">
+    <h2 id="h-contacto">9. Contacto</h2>
+    <p>Para cualquier duda o solicitud sobre privacidad: <a href="mailto:electo.privacidad@gmail.com">electo.privacidad@gmail.com</a>.</p>
+  </section>
+</main>
+
+<footer>
+  <p>Electo · Política de privacidad · Actualizada el 22 de octubre de 2026. Electo no recomienda el voto a ningún partido.</p>
+</footer>
+</body>
+</html>
