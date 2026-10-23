@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#070812">
+<meta name="description" content="Soporte de Electo, la aplicación independiente para comparar posiciones políticas con fuentes documentadas: preguntas frecuentes y contacto.">
+<title>Soporte · Electo</title>
+<style>
+  :root {
+    --bg: #070812;
+    --panel: #0f1122;
+    --line: #25284a;
+    --text: #e9e9f6;
+    --muted: #a8accb;
+    --blue: #5b8cff;
+    --violet: #8b6bff;
+    --warn: #e6c27a;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    background-image:
+      radial-gradient(60rem 30rem at 85% -10%, rgba(91, 140, 255, 0.18), transparent 60%),
+      radial-gradient(50rem 28rem at -10% 110%, rgba(139, 107, 255, 0.16), transparent 60%);
+    background-attachment: fixed;
+    color: var(--text);
+    font: 1rem/1.7 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  .skip {
+    position: absolute; left: -999px; top: 0;
+    background: var(--violet); color: #fff; padding: .6rem 1rem; z-index: 10;
+  }
+  .skip:focus { left: 0; }
+  header, main, footer { width: min(100% - 2rem, 46rem); margin-inline: auto; }
+  header { padding: 2.5rem 0 1rem; }
+  .brand {
+    margin: 0 0 1.2rem;
+    font-size: .95rem; font-weight: 800; letter-spacing: .28em; text-transform: uppercase;
+    background: linear-gradient(90deg, var(--blue), var(--violet));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  h1 { margin: 0; font-size: clamp(2rem, 7vw, 2.8rem); line-height: 1.12; letter-spacing: -.02em; }
+  .updated { margin: .8rem 0 0; color: var(--muted); font-size: .95rem; }
+  main { padding-bottom: 2rem; }
+  section { margin-top: 2.2rem; }
+  h2 {
+    margin: 0 0 .6rem; font-size: 1.3rem; line-height: 1.3;
+    padding-bottom: .4rem; border-bottom: 1px solid var(--line);
+  }
+  h3 { margin: 1.4rem 0 .2rem; font-size: 1.05rem; line-height: 1.4; }
+  p, li { color: var(--text); }
+  p { margin: .5rem 0; }
+  ul { margin: .6rem 0; padding-left: 1.3rem; }
+  li { margin: .35rem 0; }
+  a { color: var(--blue); text-underline-offset: .2em; }
+  a:hover { color: #8fb0ff; }
+  a:focus-visible, .skip:focus-visible { outline: 3px solid var(--warn); outline-offset: 3px; border-radius: 3px; }
+  .card {
+    background: var(--panel); border: 1px solid var(--line);
+    border-radius: 1rem; padding: 1rem 1.2rem; margin-top: 1rem;
+  }
+  .card p:first-child { margin-top: 0; } .card p:last-child { margin-bottom: 0; }
+  footer { padding: 1rem 0 3rem; color: var(--muted); font-size: .9rem; border-top: 1px solid var(--line); }
+</style>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<header>
+  <p class="brand">Electo</p>
+  <h1>Soporte</h1>
+  <p class="updated">Última actualización: <time datetime="2026-10-23">23 de octubre de 2026</time> · Aplicación Electo para iOS</p>
+</header>
+
+<main id="contenido">
+  <div class="card" role="note">
+    <p><strong>Electo es una aplicación independiente y no oficial.</strong> No está vinculada a ningún partido, institución ni administración pública, no recomienda el voto a ningún partido y no predice resultados.</p>
+  </div>
+
+  <section id="contacto" aria-labelledby="h-contacto">
+    <h2 id="h-contacto">Contacto</h2>
+    <p>Para dudas, errores, correcciones de una posición o sugerencias, escribe a <a href="mailto:electo.privacidad@gmail.com">electo.privacidad@gmail.com</a>.</p>
+    <p>Si quieres señalar un error en una posición, indica el partido, la pregunta y la fuente que corrige el dato, para poder revisarlo.</p>
+    <p>Las cuestiones sobre datos personales y tus derechos se explican en la <a href="./">política de privacidad</a>.</p>
+  </section>
+
+  <section id="preguntas" aria-labelledby="h-preguntas">
+    <h2 id="h-preguntas">Preguntas frecuentes</h2>
+
+    <h3>¿Qué es Electo?</h3>
+    <p>Una aplicación para comparar tus ideas con las posiciones documentadas de los principales partidos políticos de España. Respondes a 35 preguntas, puedes marcar las que más te importan y Electo calcula tu afinidad con cada partido.</p>
+
+    <h3>¿Recomienda a quién votar?</h3>
+    <p>No. Es una herramienta de información y comparación. El resultado depende de tus respuestas y de las posiciones documentadas disponibles, y no es una recomendación de voto ni una predicción de resultados.</p>
+
+    <h3>¿De dónde salen las posiciones de los partidos?</h3>
+    <p>De fuentes verificables: programas electorales, documentos oficiales, intervenciones parlamentarias y webs oficiales de los partidos. Cada posición muestra su fuente, su fecha y el tipo de documento, con un enlace al original. Si un partido no tiene una posición documentada sobre una pregunta, Electo no la inventa ni la sustituye por una posición neutra.</p>
+
+    <h3>¿Por qué un partido aparece con «datos insuficientes» o con comparación parcial?</h3>
+    <p>Porque Electo indica la cobertura documental de cada partido. Si hay pocas posiciones documentadas, no se muestra un porcentaje que pueda dar una falsa sensación de precisión. La explicación del cálculo está en la sección «Metodología» de la aplicación.</p>
+
+    <h3>¿Las posiciones corresponden a los programas de 2026?</h3>
+    <p>No necesariamente. Las posiciones son históricas y de distintas fechas: se priorizan las más recientes y siempre se indica la fecha. Los programas electorales de 2026 se incorporarán por separado, tras su revisión, y no se mezclan con las posiciones del test.</p>
+
+    <h3>¿Por qué no aparece el partido o la coalición que busco?</h3>
+    <p>Electo muestra los partidos de su registro. Las candidaturas de las elecciones generales del 29 de noviembre de 2026 son provisionales hasta su proclamación oficial, y las coaliciones no heredan automáticamente las posiciones de los partidos que las integran.</p>
+
+    <h3>¿Electo guarda mis respuestas?</h3>
+    <p>No. No hay cuentas ni registro, y tus respuestas no se envían a ningún servidor ni se guardan al cerrar la aplicación. Más información en la <a href="./">política de privacidad</a>.</p>
+
+    <h3>¿Necesito conexión a internet?</h3>
+    <p>Los datos están dentro de la aplicación, por lo que puedes usar el test, los resultados y el simulador sin conexión. Solo hace falta conexión para abrir los enlaces a las fuentes originales.</p>
+
+    <h3>¿Qué es el simulador de 350 escaños?</h3>
+    <p>Una herramienta educativa para repartir los escaños del Congreso y probar mayorías y pactos. Se basa en los resultados históricos de 2023 y en el sistema d'Hondt; no es una previsión de resultados.</p>
+
+    <h3>¿Puedo compartir mi simulación?</h3>
+    <p>Sí. El simulador genera una imagen que puedes compartir mediante la hoja de compartir de iOS. Solo sale de tu dispositivo si eliges un destino, y no incluye tus respuestas del test.</p>
+  </section>
+</main>
+
+<footer>
+  <p>Electo · Soporte · Actualizado el 23 de octubre de 2026. Electo no recomienda el voto a ningún partido.</p>
+</footer>
+</body>
+</html>
