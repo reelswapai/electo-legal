@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#070812">
-<meta name="description" content="Política de privacidad de Electo, la aplicación para comparar posiciones políticas con fuentes documentadas.">
+<meta name="description" content="Política de privacidad de Electo, la aplicación para comparar posiciones políticas con fuentes documentadas: datos, publicidad, consentimiento y compra Premium.">
 <title>Política de privacidad · Electo</title>
 <style>
   :root {
@@ -79,19 +79,23 @@
 <header>
   <p class="brand">Electo</p>
   <h1>Política de privacidad</h1>
-  <p class="updated">Última actualización: <time datetime="2026-10-22">22 de octubre de 2026</time> · Aplicación Electo para iOS, versión 1.0.0</p>
+  <p class="updated">Última actualización: <time datetime="2026-11-08">8 de noviembre de 2026</time> · Aplicación Electo para iOS, versiones 1.0.0 y 2.0.0</p>
 </header>
 
 <main id="contenido">
   <div class="card" role="note">
-    <p><strong>En pocas palabras.</strong> Electo no tiene cuentas, no te pide datos personales y no envía tus respuestas a ningún servidor. Las respuestas del test se usan en tu dispositivo para calcular el resultado y no se guardan al cerrar la aplicación.</p>
+    <p><strong>En pocas palabras.</strong> Electo no tiene cuentas ni servidores propios y no envía tus respuestas del test a nadie. La versión 1.0 no incluye publicidad ni compras. La <strong>versión 2.0</strong> añade anuncios de Google AdMob (con tu consentimiento donde sea exigible, y que puedes rechazar o retirar) y una compra única opcional, <strong>Electo Premium</strong>, que los elimina. Esos servicios, junto con Apple, tratan datos técnicos conforme a sus propias políticas, como se explica abajo.</p>
   </div>
 
   <nav aria-label="Índice">
     <h2>Índice</h2>
     <ol>
       <li><a href="#responsable">Responsable</a></li>
+      <li><a href="#versiones">Versiones de la aplicación</a></li>
       <li><a href="#datos">Qué datos se tratan y para qué</a></li>
+      <li><a href="#publicidad">Publicidad (Google AdMob)</a></li>
+      <li><a href="#consentimiento">Consentimiento de publicidad (Google UMP)</a></li>
+      <li><a href="#compras">Electo Premium y compras</a></li>
       <li><a href="#no-recopilamos">Qué no recopilamos</a></li>
       <li><a href="#almacenamiento">Almacenamiento, conservación y eliminación</a></li>
       <li><a href="#enlaces">Enlaces externos y terceros</a></li>
@@ -108,70 +112,114 @@
     <p>Correo de contacto: <a href="mailto:electo.privacidad@gmail.com">electo.privacidad@gmail.com</a>.</p>
   </section>
 
+  <section id="versiones" aria-labelledby="h-versiones">
+    <h2 id="h-versiones">2. Versiones de la aplicación</h2>
+    <ul>
+      <li><strong>Versión 1.0.0.</strong> Sin publicidad, sin compras y sin servicios de terceros propios de la aplicación. Las respuestas solo existen en la memoria mientras la app está abierta.</li>
+      <li><strong>Versión 2.0.0 y posteriores.</strong> Añaden el guardado local del progreso del Test, anuncios de Google AdMob con gestión del consentimiento de Google (UMP) y la compra única opcional Electo Premium gestionada con Apple y RevenueCat. Lo descrito a partir de aquí como «versión 2.0» solo se aplica a esa versión y a las posteriores.</li>
+    </ul>
+  </section>
+
   <section id="datos" aria-labelledby="h-datos">
-    <h2 id="h-datos">2. Qué datos se tratan y para qué</h2>
-    <p>Electo no solicita ni almacena datos que te identifiquen (nombre, correo, teléfono, cuenta, contactos, ubicación, fotos). La aplicación solo trata, en tu dispositivo, la información que tú introduces mientras la usas:</p>
+    <h2 id="h-datos">3. Qué datos se tratan y para qué</h2>
+    <p>Electo no solicita ni almacena datos que te identifiquen (nombre, correo, teléfono, cuenta, contactos, ubicación, fotos). La aplicación solo trata la información que tú introduces mientras la usas:</p>
     <ul>
       <li><strong>Respuestas al test de afinidad</strong> (las 35 cuestiones y las que marques como importantes): se usan únicamente para calcular tu resultado y mostrarlo en pantalla.</li>
       <li><strong>Provincia o circunscripción</strong> que eliges: se usa para mostrar las candidaturas y los datos electorales de esa circunscripción. Electo no utiliza tu ubicación ni te la pide.</li>
       <li><strong>Tus respuestas en Discover</strong> (me convence / no me convence) y <strong>las opciones que eliges en el simulador y en el voto útil</strong>: se usan para mostrar contenido en pantalla durante la sesión.</li>
+      <li><strong>Versión 2.0: progreso del Test.</strong> Para que puedas retomar un Test a medias, la app guarda en tu dispositivo tus respuestas, cuáles marcaste como importantes, la pregunta en la que vas, la circunscripción, un identificador interno aleatorio del intento y si ya se ofreció el anuncio de ese intento. Estos datos se quedan en tu dispositivo.</li>
     </ul>
-    <p>Estos datos se tratan localmente. Electo no los envía a sus responsables ni a terceros.</p>
+    <p>Electo no envía a sus responsables, ni a Google, ni a RevenueCat tus respuestas, tu circunscripción ni tus resultados.</p>
+  </section>
+
+  <section id="publicidad" aria-labelledby="h-publicidad">
+    <h2 id="h-publicidad">4. Publicidad (Google AdMob) — versión 2.0</h2>
+    <p>La versión gratuita de la versión 2.0 muestra anuncios intersticiales de Google AdMob:</p>
+    <ul>
+      <li>uno, como máximo, por sesión de uso, al pulsar determinadas opciones de navegación (nunca nada más abrir la aplicación);</li>
+      <li>uno, como máximo, por cada Test, al pasar del final del Test a la pantalla de resultados.</li>
+    </ul>
+    <p>No se muestran anuncios mientras lees o contestas las preguntas, y el resultado del test no depende del anuncio ni de que se muestre. Si el anuncio no está disponible o falla, la aplicación continúa con normalidad. Los usuarios de Electo Premium no ven anuncios.</p>
+    <p>Para solicitar y mostrar anuncios, el SDK de Google se comunica con servidores de Google y puede tratar datos técnicos del dispositivo y de la aplicación, tu dirección IP aproximada, datos de interacción con los anuncios e información de rendimiento y diagnóstico, conforme a la <a href="https://policies.google.com/privacy">política de privacidad de Google</a>. Electo solicita <strong>anuncios no personalizados</strong> y no solicita el permiso de seguimiento de Apple (App Tracking Transparency).</p>
+  </section>
+
+  <section id="consentimiento" aria-labelledby="h-consentimiento">
+    <h2 id="h-consentimiento">5. Consentimiento de publicidad (Google UMP) — versión 2.0</h2>
+    <p>Cuando la normativa lo exige (por ejemplo, en el Espacio Económico Europeo y en el Reino Unido), Electo muestra, antes de solicitar ningún anuncio, un formulario de consentimiento de Google (User Messaging Platform) en el que puedes consentir, gestionar opciones o no consentir.</p>
+    <ul>
+      <li>Si no consientes, Electo no solicita anuncios.</li>
+      <li>Puedes cambiar o retirar tu decisión cuando quieras desde <strong>«Preferencias de privacidad (anuncios)»</strong>, en la pantalla de inicio de la aplicación (aparece cuando Google exige ofrecer esa opción). El cambio se aplica al momento.</li>
+      <li>Tu decisión la guarda el SDK de Google en tu dispositivo.</li>
+      <li>Los usuarios de Electo Premium no ven anuncios ni este formulario.</li>
+    </ul>
+  </section>
+
+  <section id="compras" aria-labelledby="h-compras">
+    <h2 id="h-compras">6. Electo Premium y compras — versión 2.0</h2>
+    <ul>
+      <li><strong>Qué es.</strong> Una compra única opcional (precio de referencia: 2,99 €), sin suscripción ni renovaciones, que elimina los anuncios. No cambia el test, el cálculo de afinidad ni los resultados.</li>
+      <li><strong>Quién gestiona el pago.</strong> Apple, a través de las compras dentro de la app. Electo no recibe los datos de tu tarjeta ni de tu método de pago.</li>
+      <li><strong>RevenueCat.</strong> Electo utiliza el servicio RevenueCat para verificar la compra y activar Premium. Su SDK genera un identificador anónimo (Electo no tiene cuentas ni te identifica) y trata la información de la compra y los datos técnicos necesarios para validarla, conforme a la <a href="https://www.revenuecat.com/privacy">política de privacidad de RevenueCat</a>.</li>
+      <li><strong>Restaurar compras.</strong> La compra queda asociada a tu Apple ID. Puedes recuperarla en otro dispositivo o tras reinstalar con el botón «Restaurar compras» (en la pantalla Premium y en la de inicio).</li>
+      <li><strong>Sin conexión.</strong> La app guarda en tu dispositivo una indicación de que eres Premium solo para no mostrarte anuncios; las funciones Premium se confirman con RevenueCat cuando hay conexión.</li>
+    </ul>
   </section>
 
   <section id="no-recopilamos" aria-labelledby="h-no">
-    <h2 id="h-no">3. Qué no recopilamos</h2>
+    <h2 id="h-no">7. Qué no recopilamos</h2>
     <p>Según el funcionamiento actual de la aplicación, Electo:</p>
     <ul>
       <li>no tiene registro, inicio de sesión ni identificación de usuarios;</li>
-      <li>no incorpora herramientas de analítica, publicidad ni seguimiento, ni informes de errores de terceros;</li>
-      <li>no realiza peticiones de red propias para enviar datos tuyos;</li>
-      <li>no solicita permisos como ubicación, cámara, micrófono, contactos o fotos;</li>
-      <li>no genera ni usa identificadores publicitarios ni identificadores propios de dispositivo o instalación.</li>
+      <li>no incorpora, aparte de los servicios indicados en esta política (Google AdMob y UMP, y RevenueCat, en la versión 2.0), otras herramientas de analítica, publicidad ni seguimiento, ni informes de errores de terceros;</li>
+      <li>no envía tus respuestas, circunscripción ni resultados a ningún servidor;</li>
+      <li>no solicita permisos como ubicación, cámara, micrófono, contactos o fotos, ni el permiso de seguimiento de Apple;</li>
+      <li>no crea perfiles de usuario ni identificadores de persona propios.</li>
     </ul>
     <p>Las posiciones de los partidos, sus fuentes y los resultados electorales históricos forman parte de la propia aplicación; no se descargan de ningún servidor de Electo.</p>
   </section>
 
   <section id="almacenamiento" aria-labelledby="h-alm">
-    <h2 id="h-alm">4. Almacenamiento, conservación y eliminación</h2>
+    <h2 id="h-alm">8. Almacenamiento, conservación y eliminación</h2>
     <ul>
-      <li><strong>Respuestas y resultados.</strong> Se mantienen solo en la memoria de la aplicación mientras la tienes abierta. Electo no las escribe en el almacenamiento del dispositivo, por lo que desaparecen al cerrar la aplicación.</li>
+      <li><strong>Versión 1.0.0.</strong> Las respuestas y los resultados se mantienen solo en la memoria de la aplicación mientras la tienes abierta y desaparecen al cerrarla.</li>
+      <li><strong>Versión 2.0.</strong> El progreso del Test (y, una vez terminado, las respuestas de ese último Test) se guarda en el almacenamiento de tu dispositivo para poder retomarlo. Permanece hasta que empiezas otro Test, eliges «Empezar de nuevo» o desinstalas la aplicación. Los resultados mostrados en pantalla no se guardan.</li>
       <li><strong>Imagen del simulador.</strong> Si pulsas compartir en el simulador, Electo genera una imagen de tu simulación y abre la hoja de compartir del sistema. La imagen se crea en un espacio temporal del dispositivo, que gestiona el sistema operativo, y solo sale del dispositivo si tú eliges un destino. Electo no la envía a ningún servidor.</li>
-      <li><strong>Eliminación.</strong> Para borrar lo que haya en memoria basta con cerrar la aplicación. Si la desinstalas, se elimina cualquier dato temporal asociado a ella.</li>
+      <li><strong>Eliminación.</strong> Al desinstalar la aplicación se elimina lo que Electo guardó en tu dispositivo. Los datos que Google, RevenueCat o Apple traten por su cuenta se conservan y se eliminan según sus propias políticas.</li>
     </ul>
     <p>Como Electo no conserva tus respuestas en servidores propios, no existe una copia que podamos consultar, recuperar o transferir.</p>
   </section>
 
   <section id="enlaces" aria-labelledby="h-enlaces">
-    <h2 id="h-enlaces">5. Enlaces externos y terceros</h2>
+    <h2 id="h-enlaces">9. Enlaces externos y terceros</h2>
     <p>Electo muestra enlaces a las fuentes de las posiciones y de los datos electorales (por ejemplo, documentos y páginas de partidos, boletines oficiales y organismos públicos). Al pulsarlos, la aplicación abre el enlace en tu navegador o en otra aplicación del sistema. Electo no añade a esos enlaces datos tuyos ni tus respuestas.</p>
     <p>A partir de ese momento, el sitio web de destino puede tratar información técnica (como tu dirección IP o cookies) conforme a su propia política de privacidad, sobre la que Electo no tiene control. Si compartes una imagen desde el simulador, la aplicación o el servicio que elijas para recibirla tratará esa imagen conforme a sus propias condiciones.</p>
+    <p>Servicios de terceros de la versión 2.0, cada uno con su propia política: <a href="https://policies.google.com/privacy">Google (AdMob y UMP)</a>, <a href="https://www.revenuecat.com/privacy">RevenueCat</a> y <a href="https://www.apple.com/legal/privacy/">Apple</a>. Estos proveedores pueden tratar datos en países distintos del tuyo conforme a sus propias políticas.</p>
   </section>
 
   <section id="apple" aria-labelledby="h-apple">
-    <h2 id="h-apple">6. Apple y la distribución de la app</h2>
-    <p>Electo se distribuye a través de los servicios de Apple (App Store y TestFlight). Apple trata tus datos como parte de esos servicios según su propia política de privacidad. Apple puede facilitar a los desarrolladores información agregada, como estadísticas de descargas o informes de fallos de usuarios que hayan activado compartir datos de análisis con desarrolladores en su dispositivo. Electo no incorpora herramientas propias para obtener esa información.</p>
+    <h2 id="h-apple">10. Apple y la distribución de la app</h2>
+    <p>Electo se distribuye a través de los servicios de Apple (App Store y TestFlight). Apple trata tus datos como parte de esos servicios, incluidas las compras, según su propia política de privacidad. Apple puede facilitar a los desarrolladores información agregada, como estadísticas de descargas o informes de fallos de usuarios que hayan activado compartir datos de análisis con desarrolladores en su dispositivo. Electo no incorpora herramientas propias para obtener esa información.</p>
   </section>
 
   <section id="derechos" aria-labelledby="h-derechos">
-    <h2 id="h-derechos">7. Tus derechos</h2>
-    <p>Conforme al Reglamento (UE) 2016/679 (RGPD) y a la normativa española de protección de datos, puedes ejercer los derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad, escribiendo al correo de contacto indicado en el apartado 9. Dado que Electo no conserva datos personales tuyos, es posible que la respuesta sea que no disponemos de ellos.</p>
-    <p>También puedes presentar una reclamación ante la autoridad de control. En España, la Agencia Española de Protección de Datos (<a href="https://www.aepd.es" rel="noopener noreferrer">www.aepd.es</a>).</p>
+    <h2 id="h-derechos">11. Tus derechos</h2>
+    <p>Conforme al Reglamento (UE) 2016/679 (RGPD) y a la normativa española de protección de datos, puedes ejercer los derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad, escribiendo al correo de contacto indicado en el apartado 13. Dado que Electo no conserva datos personales tuyos en servidores propios, es posible que la respuesta sea que no disponemos de ellos. Para los datos tratados por Google, RevenueCat o Apple, puedes dirigirte también a esas empresas conforme a sus políticas.</p>
+    <p>También puedes presentar una reclamación ante la autoridad de control. En España, la Agencia Española de Protección de Datos (<a href="https://www.aepd.es">www.aepd.es</a>).</p>
   </section>
 
   <section id="cambios" aria-labelledby="h-cambios">
-    <h2 id="h-cambios">8. Cambios en esta política</h2>
-    <p>Esta política describe el funcionamiento actual de Electo. Si en el futuro se añade una función que trate datos de otra forma (por ejemplo, cuentas, almacenamiento de resultados o herramientas de analítica), actualizaremos esta página antes de publicar esa versión y cambiaremos la fecha de última actualización. Te recomendamos revisarla periódicamente.</p>
+    <h2 id="h-cambios">12. Cambios en esta política</h2>
+    <p>Esta política describe el funcionamiento actual de Electo. Si en el futuro se añade una función que trate datos de otra forma (por ejemplo, cuentas, almacenamiento de resultados o nuevas herramientas), actualizaremos esta página antes de publicar esa versión y cambiaremos la fecha de última actualización. Te recomendamos revisarla periódicamente.</p>
   </section>
 
   <section id="contacto" aria-labelledby="h-contacto">
-    <h2 id="h-contacto">9. Contacto</h2>
+    <h2 id="h-contacto">13. Contacto</h2>
     <p>Para cualquier duda o solicitud sobre privacidad: <a href="mailto:electo.privacidad@gmail.com">electo.privacidad@gmail.com</a>.</p>
   </section>
 </main>
 
 <footer>
-  <p>Electo · Política de privacidad · Actualizada el 22 de octubre de 2026. Electo no recomienda el voto a ningún partido.</p>
+  <p>Electo · Política de privacidad · Actualizada el 8 de noviembre de 2026. Electo no recomienda el voto a ningún partido.</p>
 </footer>
 </body>
 </html>
