@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-13",
+  "entries": [
+    {
+      "partyId": "psoe",
+      "status": "pendiente-verificacion",
+      "title": null,
+      "url": null,
+      "publishedAt": null,
+      "source": null,
+      "checkedAt": null
+    },
+    {
+      "partyId": "pp",
+      "status": "compromisos",
+      "title": "Mi contrato con España",
+      "url": "https://www.pp.es/wp-content/uploads/2026/10/CONTRATO-CON-ESPANA-.pdf",
+      "publishedAt": "2026-10-19",
+      "source": "pp.es",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "partyId": "vox",
+      "status": "publicado",
+      "title": "Es sentido común. Programa electoral",
+      "url": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
+      "publishedAt": "2026-11-12",
+      "source": "voxespana.es",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "partyId": "sumar",
+      "status": "pendiente-publicacion",
+      "title": null,
+      "url": null,
+      "publishedAt": null,
+      "source": null,
+      "checkedAt": null
+    },
+    {
+      "partyId": "podemos",
+      "status": "pendiente-publicacion",
+      "title": null,
+      "url": null,
+      "publishedAt": null,
+      "source": null,
+      "checkedAt": null
+    },
+    {
+      "partyId": "iu",
+      "status": "pendiente-publicacion",
+      "title": null,
+      "url": null,
+      "publishedAt": null,
+      "source": null,
+      "checkedAt": null
+    },
+    {
+      "partyId": "mas-madrid",
+      "status": "pendiente-publicacion",
+      "title": null,
+      "url": null,
+      "publishedAt": null,
+      "source": null,
+      "checkedAt": null
+    },
+    {
+      "partyId": "comuns",
+      "status": "pendiente-publicacion",
+      "title": null,
+      "url": null,
+      "publishedAt": null,
+      "source": null,
+      "checkedAt": null
+    },
+    {
+      "partyId": "erc",
+      "status": "publicado",
+      "title": "Eleccions al Congrés 2026. Programa electoral",
+      "url": "https://www.esquerrarepublicana.cat/documents/e2026-programa.pdf",
+      "publishedAt": null,
+      "source": "esquerrarepublicana.cat",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "partyId": "junts",
+      "status": "pendiente-publicacion",
+      "title": null,
+      "url": null,
+      "publishedAt": null,
+      "source": null,
+      "checkedAt": null
+    },
+    {
+      "partyId": "pnv",
+      "status": "pendiente-publicacion",
+      "title": null,
+      "url": null,
+      "publishedAt": null,
+      "source": null,
+      "checkedAt": null
+    },
+    {
+      "partyId": "eh-bildu",
+      "status": "pendiente-publicacion",
+      "title": null,
+      "url": null,
+      "publishedAt": null,
+      "source": null,
+      "checkedAt": null
+    },
+    {
+      "partyId": "bng",
+      "status": "publicado",
+      "title": "XERAIS 2026. Programa electoral",
+      "url": "https://www.bng.gal/media/bnggaliza/files/2026/11/03/26_bng_xerais_documentos_programa_electoral.pdf",
+      "publishedAt": "2026-11-03",
+      "source": "bng.gal",
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "partyId": "coalicion-canaria",
+      "status": "pendiente-publicacion",
+      "title": null,
+      "url": null,
+      "publishedAt": null,
+      "source": null,
+      "checkedAt": null
+    }
+  ]
+}
