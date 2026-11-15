@@ -13,12 +13,12 @@
     },
     {
       "partyId": "pp",
-      "status": "compromisos",
-      "title": "Mi contrato con España",
-      "url": "https://www.pp.es/wp-content/uploads/2026/10/CONTRATO-CON-ESPANA-.pdf",
-      "publishedAt": "2026-10-19",
+      "status": "publicado",
+      "title": "La Reconstrucción Nacional. Programa electoral",
+      "url": "https://www.pp.es/wp-content/uploads/2026/11/LA-RECONSTRUCCION-NACIONAL.pdf",
+      "publishedAt": "2026-11-10",
       "source": "pp.es",
-      "checkedAt": "2026-11-06"
+      "checkedAt": "2026-11-13"
     },
     {
       "partyId": "vox",
