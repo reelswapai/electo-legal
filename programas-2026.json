@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13",
+  "updatedAt": "2026-11-18",
   "entries": [
     {
       "partyId": "psoe",
-      "status": "pendiente-verificacion",
-      "title": null,
-      "url": null,
+      "status": "publicado",
+      "title": "La fuerza de seguir avanzando. Programa electoral",
+      "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
       "publishedAt": null,
-      "source": null,
-      "checkedAt": null
+      "source": "psoe.es",
+      "checkedAt": "2026-11-17"
     },
     {
       "partyId": "pp",
@@ -49,12 +49,12 @@
     },
     {
       "partyId": "iu",
-      "status": "pendiente-publicacion",
-      "title": null,
-      "url": null,
-      "publishedAt": null,
-      "source": null,
-      "checkedAt": null
+      "status": "publicado",
+      "title": "Programa de Izquierda Unida a las Elecciones Generales del 29N",
+      "url": "https://izquierdaunida.org/2026/11/16/programa-29n-2026-presentacion/",
+      "publishedAt": "2026-11-16",
+      "source": "izquierdaunida.org",
+      "checkedAt": "2026-11-17"
     },
     {
       "partyId": "mas-madrid",
@@ -94,12 +94,12 @@
     },
     {
       "partyId": "pnv",
-      "status": "pendiente-publicacion",
-      "title": null,
-      "url": null,
+      "status": "publicado",
+      "title": "Programa Elecciones Generales 2026 – Euskadi Zaindu",
+      "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
       "publishedAt": null,
-      "source": null,
-      "checkedAt": null
+      "source": "eaj-pnv.eus",
+      "checkedAt": "2026-11-17"
     },
     {
       "partyId": "eh-bildu",
@@ -121,12 +121,50 @@
     },
     {
       "partyId": "coalicion-canaria",
-      "status": "pendiente-publicacion",
-      "title": null,
-      "url": null,
+      "status": "publicado",
+      "title": "Defiende Canarias. Bases del programa electoral",
+      "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
       "publishedAt": null,
-      "source": null,
-      "checkedAt": null
+      "source": "coalicioncanaria.org",
+      "checkedAt": "2026-11-17"
+    }
+  ],
+  "coalitions": [
+    {
+      "partyId": "frente-amplio",
+      "status": "publicado",
+      "title": "Programa electoral del Frente Amplio",
+      "url": "https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf",
+      "publishedAt": null,
+      "source": "frenteamplio.info",
+      "checkedAt": "2026-11-17"
+    },
+    {
+      "partyId": "salf",
+      "status": "publicado",
+      "title": "Contrato electoral simplificado. Generales 2026",
+      "url": "https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf",
+      "publishedAt": null,
+      "source": "seacabolafiesta.com",
+      "checkedAt": "2026-11-17"
+    },
+    {
+      "partyId": "compromis",
+      "status": "publicado",
+      "title": "Programa electoral 29N. Compromís-Front Valencià",
+      "url": "https://frontvalencia.org/#programa",
+      "publishedAt": null,
+      "source": "frontvalencia.org",
+      "checkedAt": "2026-11-18"
+    },
+    {
+      "partyId": "comuns-front-ampli",
+      "status": "publicado",
+      "title": "Un programa com una casa. Programa electoral 29N",
+      "url": "https://comuns.cat/wp-content/uploads/2026/11/Comuns-FA-Programa29N-1.pdf",
+      "publishedAt": "2026-11-16",
+      "source": "comuns.cat",
+      "checkedAt": "2026-11-18"
     }
   ]
 }
