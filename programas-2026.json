@@ -40,12 +40,12 @@
     },
     {
       "partyId": "podemos",
-      "status": "pendiente-publicacion",
-      "title": null,
-      "url": null,
+      "status": "publicado",
+      "title": "Así de básico: Paz, casa y trabajo. Programa electoral 29N",
+      "url": "https://podemos.info/wp-content/uploads/2026/11/29N-programa-Podemos.-Paz-casa-y-trabajo.pdf",
       "publishedAt": null,
-      "source": null,
-      "checkedAt": null
+      "source": "podemos.info",
+      "checkedAt": "2026-11-19"
     },
     {
       "partyId": "iu",
@@ -85,12 +85,12 @@
     },
     {
       "partyId": "junts",
-      "status": "pendiente-publicacion",
-      "title": null,
-      "url": null,
-      "publishedAt": null,
-      "source": null,
-      "checkedAt": null
+      "status": "publicado",
+      "title": "Programa electoral 29N",
+      "url": "https://www.tualcentre.cat/app/uploads/2026/11/PROGRAMA-ELECTORAL_JUNTS_29N.pdf",
+      "publishedAt": "2026-11-18",
+      "source": "tualcentre.cat",
+      "checkedAt": "2026-11-19"
     },
     {
       "partyId": "pnv",
@@ -103,12 +103,12 @@
     },
     {
       "partyId": "eh-bildu",
-      "status": "pendiente-publicacion",
-      "title": null,
-      "url": null,
-      "publishedAt": null,
-      "source": null,
-      "checkedAt": null
+      "status": "publicado",
+      "title": "Garantía y derechos. Programa electoral",
+      "url": "https://ehbildu.eus/media/dokumentuak/posibleegin-programa-cas.pdf",
+      "publishedAt": "2026-11-16",
+      "source": "ehbildu.eus",
+      "checkedAt": "2026-11-19"
     },
     {
       "partyId": "bng",
